@@ -1,0 +1,57 @@
+.container {
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    height: 65vh;
+     
+     
+     
+  }
+  body{
+    background-color: #fdd0cd;
+    background-image: url(/assets/images/users/makeup.jpg);
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    gap: 1em;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:  mediumspringgreen;
+  }
+  .heading{
+    color: white;
+  }
+
+  
